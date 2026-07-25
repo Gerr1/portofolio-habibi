@@ -6,15 +6,22 @@ AOS.init({
     easing: 'ease-out-cubic'
 });
 
-// 2. Inisialisasi Slider Musik (Swiper.js)
+// 2. Inisialisasi Slider Musik (Swiper.js) - FIXED NAVIGATION
 const swiper = new Swiper('.music-slider', {
     slidesPerView: 1,
     spaceBetween: 30,
     loop: true,
+    
+    // Hubungkan class tombol custom secara presisi
     navigation: {
         nextEl: '.next-btn',
         prevEl: '.prev-btn',
     },
+    
+    // Mencegah bug saat Swiper dirender sebelum DOM siap sepenuhnya
+    observer: true,
+    observeParents: true,
+
     breakpoints: {
         768: {
             slidesPerView: 2,
@@ -45,4 +52,4 @@ window.addEventListener('scroll', () => {
         navbar.style.background = 'rgba(10, 10, 10, 0.9)';
         navbar.style.borderBottom = '1px solid var(--border-color)';
     }
-});
+}); 

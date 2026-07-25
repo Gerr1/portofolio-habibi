@@ -80,9 +80,8 @@
       </div>
       <div class="about-grid">
         <div class="profile-frame" data-aos="fade-up">
-          <!-- Ganti 'profile.jpg' dengan foto Habibi di folder proyek -->
           <img
-            src="profile.jpg"
+            src="Profile.jpeg"
             alt="Muhammad Rizky Habibi"
             onerror="
               this.src =
@@ -165,79 +164,200 @@
       </div>
     </section>
 
-    <!-- GALLERY / GIGS SECTION (BAGIAN BARU DITAROH DI SINI) -->
+    <!-- GALLERY / MEDIA & GIGS SECTION -->
     <section class="gallery" id="gallery">
       <div class="section-header" data-aos="fade-right">
-        <i class="fa-solid fa-camera section-icon"></i>
-        <h2>FIELD DOCUMENTATION & GIGS</h2>
+        <i class="fa-solid fa-photo-film section-icon"></i>
+        <h2>FIELD DOCUMENTATION & MEDIA</h2>
         <p class="section-subtitle">
-          Dokumentasi aksi lapangan, kepanitiaan acara musik, dan dokumentasi
-          visual.
+          Geser ke samping untuk melihat dokumentasi foto dan video kegiatan.
         </p>
       </div>
 
-      <div class="gallery-grid">
-        <!-- Foto 1: Simpan foto gigs1.jpg di folder kamu -->
-        <div class="gallery-item" data-aos="fade-up">
-          <div class="gallery-img-wrapper">
+      <!-- Container scroll menyamping grid 3 baris -->
+      <div class="gallery-scroll-container">
+        <!-- Item 1 -->
+        <div class="gallery-card" data-aos="fade-up">
+          <div class="media-wrapper">
             <img
               src="gigs1.jpg"
-              alt="Live Event / Gigs"
+              alt="Live Event"
               onerror="
                 this.src =
-                  'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=600&auto=format&fit=crop'
+                  'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=400&auto=format&fit=crop'
               "
             />
-            <div class="gallery-overlay">
-              <span class="gallery-tag">STAGE & EVENT</span>
-              <h3>Stage Management & Gigs</h3>
-              <p>Penanganan publisitas dan eksekusi acara musik independen.</p>
-            </div>
+            <span class="media-type-badge"
+              ><i class="fa-solid fa-image"></i> PHOTO</span
+            >
+          </div>
+          <div class="card-info">
+            <h4>Stage Management</h4>
+            <p>Eksekusi acara musik.</p>
           </div>
         </div>
 
-        <!-- Foto 2: Simpan foto gigs2.jpg di folder kamu -->
-        <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
-          <div class="gallery-img-wrapper">
+        <!-- Item 2 -->
+        <div class="gallery-card" data-aos="fade-up" data-aos-delay="50">
+          <div class="media-wrapper">
+            <video controls poster="gigs2.jpg">
+              <source src="video1.mp4" type="video/mp4" />
+            </video>
+            <span class="media-type-badge video-badge"
+              ><i class="fa-solid fa-video"></i> VIDEO</span
+            >
+          </div>
+          <div class="card-info">
+            <h4>Aftermath / Teaser</h4>
+            <p>Dokumentasi visual singkat.</p>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="gallery-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="media-wrapper">
             <img
-              src="gigs2.jpg"
+              src="gigs3.jpg"
               alt="Street Journalism"
               onerror="
                 this.src =
-                  'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=600&auto=format&fit=crop'
+                  'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=400&auto=format&fit=crop'
               "
             />
-            <div class="gallery-overlay">
-              <span class="gallery-tag">STREET MEDIA</span>
-              <h3>Street Journalism</h3>
-              <p>
-                Dokumentasi visual mengenai pergerakan sosial dan lanskap kota.
-              </p>
-            </div>
+            <span class="media-type-badge"
+              ><i class="fa-solid fa-image"></i> PHOTO</span
+            >
+          </div>
+          <div class="card-info">
+            <h4>Street Journalism</h4>
+            <p>Riset pergerakan jalanan.</p>
           </div>
         </div>
 
-        <!-- Foto 3: Simpan foto gigs3.jpg di folder kamu -->
-        <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
-          <div class="gallery-img-wrapper">
+        <!-- Item 4 -->
+        <div class="gallery-card" data-aos="fade-up" data-aos-delay="150">
+          <div class="media-wrapper">
             <img
-              src="gigs3.jpg"
-              alt="Campaign / PR"
+              src="gigs4.jpg"
+              alt="Campus Campaign"
               onerror="
                 this.src =
-                  'https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=600&auto=format&fit=crop'
+                  'https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=400&auto=format&fit=crop'
               "
             />
-            <div class="gallery-overlay">
-              <span class="gallery-tag">COMMUNICATION</span>
-              <h3>Campus PR Campaign</h3>
-              <p>Eksekusi strategi komunikasi publik pada acara UIN Suska.</p>
-            </div>
+            <span class="media-type-badge"
+              ><i class="fa-solid fa-image"></i> PHOTO</span
+            >
+          </div>
+          <div class="card-info">
+            <h4>Campus PR Campaign</h4>
+            <p>Strategi humas UIN Suska.</p>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="gallery-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="media-wrapper">
+            <img
+              src="gigs5.jpg"
+              alt="Art Exhibition"
+              onerror="
+                this.src =
+                  'https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?q=80&w=400&auto=format&fit=crop'
+              "
+            />
+            <span class="media-type-badge"
+              ><i class="fa-solid fa-image"></i> PHOTO</span
+            >
+          </div>
+          <div class="card-info">
+            <h4>Art Exhibition</h4>
+            <p>Kurasi karya seni lokal.</p>
+          </div>
+        </div>
+
+        <!-- Item 6 -->
+        <div class="gallery-card" data-aos="fade-up" data-aos-delay="250">
+          <div class="media-wrapper">
+            <img
+              src="gigs6.jpg"
+              alt="Workshop"
+              onerror="
+                this.src =
+                  'https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=400&auto=format&fit=crop'
+              "
+            />
+            <span class="media-type-badge"
+              ><i class="fa-solid fa-image"></i> PHOTO</span
+            >
+          </div>
+          <div class="card-info">
+            <h4>Creative Workshop</h4>
+            <p>Pelatihan media digital.</p>
+          </div>
+        </div>
+
+        <!-- Item 7 -->
+        <div class="gallery-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="media-wrapper">
+            <img
+              src="gigs7.jpg"
+              alt="Podcast Session"
+              onerror="
+                this.src =
+                  'https://images.unsplash.com/photo-1590602847861-f357a9332bbc?q=80&w=400&auto=format&fit=crop'
+              "
+            />
+            <span class="media-type-badge"
+              ><i class="fa-solid fa-image"></i> PHOTO</span
+            >
+          </div>
+          <div class="card-info">
+            <h4>Podcast Session</h4>
+            <p>Diskusi publik interaktif.</p>
+          </div>
+        </div>
+
+        <!-- Item 8 -->
+        <div class="gallery-card" data-aos="fade-up" data-aos-delay="350">
+          <div class="media-wrapper">
+            <img
+              src="gigs8.jpg"
+              alt="Zine Release"
+              onerror="
+                this.src =
+                  'https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?q=80&w=400&auto=format&fit=crop'
+              "
+            />
+            <span class="media-type-badge"
+              ><i class="fa-solid fa-image"></i> PHOTO</span
+            >
+          </div>
+          <div class="card-info">
+            <h4>Zine Release Party</h4>
+            <p>Peluncuran zine indie.</p>
+          </div>
+        </div>
+
+        <!-- Item 9 -->
+        <div class="gallery-card" data-aos="fade-up" data-aos-delay="400 ">
+          <div class="media-wrapper">
+            <video controls poster="gigs9.jpg">
+              <source src="video2.mp4" type="video/mp4" />
+            </video>
+            <span class="media-type-badge video-badge"
+              ><i class="fa-solid fa-video"></i> VIDEO</span
+            >
+          </div>
+          <div class="card-info">
+            <h4>Behind The Scenes</h4>
+            <p>Proses kreatif di lapangan.</p>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- MUSIC / AUDIO PLAYER SECTION -->
     <!-- MUSIC / AUDIO PLAYER SECTION -->
     <section class="music" id="music">
       <div class="section-header" data-aos="fade-right">
@@ -250,7 +370,26 @@
 
       <div class="swiper music-slider" data-aos="fade-up">
         <div class="swiper-wrapper">
-          <!-- Track 1: Ubah 'lagu1.mp3' sesuai nama file audio kamu -->
+          <!-- Slide 1: Neck Deep -->
+          <div class="swiper-slide music-card">
+            <div class="music-card-header">
+              <i class="fa-solid fa-compact-disc record-icon"></i>
+              <span class="genre-tag">POP-PUNK</span>
+            </div>
+            <div class="song-info">
+              <h3>In Bloom</h3>
+              <p>Neck Deep</p>
+            </div>
+            <div class="audio-wrapper">
+              <i class="fa-solid fa-volume-high audio-icon"></i>
+              <audio controls loop preload="none">
+                <source src="neck-deep-in-bloom.mp3" type="audio/mpeg" />
+                Browser kamu tidak mendukung pemutar audio.
+              </audio>
+            </div>
+          </div>
+
+          <!-- Slide 2: Blink-182 -->
           <div class="swiper-slide music-card">
             <div class="music-card-header">
               <i class="fa-solid fa-compact-disc record-icon"></i>
@@ -262,50 +401,72 @@
             </div>
             <div class="audio-wrapper">
               <i class="fa-solid fa-volume-high audio-icon"></i>
-              <audio controls preload="none">
-                <source src="lagu1.mp3" type="audio/mpeg" />
+              <audio controls loop preload="none">
+                <source src="blink-182-first-date.mp3" type="audio/mpeg" />
+                Browser kamu tidak mendukung pemutar audio.
               </audio>
             </div>
           </div>
 
-          <!-- Track 2: Ubah 'lagu2.mp3' sesuai nama file audio kamu -->
+          <!-- Slide 3: Bring Me The Horizon -->
           <div class="swiper-slide music-card">
             <div class="music-card-header">
               <i class="fa-solid fa-compact-disc record-icon"></i>
-              <span class="genre-tag">SKATE PUNK</span>
+              <span class="genre-tag">ALT-ROCK</span>
             </div>
             <div class="song-info">
-              <h3>Fat Lip</h3>
-              <p>Sum 41</p>
+              <h3>Drown</h3>
+              <p>Bring Me The Horizon</p>
             </div>
             <div class="audio-wrapper">
               <i class="fa-solid fa-volume-high audio-icon"></i>
-              <audio controls preload="none">
-                <source src="lagu2.mp3" type="audio/mpeg" />
+              <audio controls loop preload="none">
+                <source src="bmth-drown.mp3" type="audio/mpeg" />
+                Browser kamu tidak mendukung pemutar audio.
               </audio>
             </div>
           </div>
 
-          <!-- Track 3: Ubah 'lagu3.mp3' sesuai nama file audio kamu -->
+          <!-- Slide 4: Neck Deep (Tambahan agar Loop Lancar) -->
           <div class="swiper-slide music-card">
             <div class="music-card-header">
               <i class="fa-solid fa-compact-disc record-icon"></i>
-              <span class="genre-tag">ALTERNATIVE</span>
+              <span class="genre-tag">POP-PUNK</span>
             </div>
             <div class="song-info">
-              <h3>In Bloom</h3>
+              <h3>December</h3>
               <p>Neck Deep</p>
             </div>
             <div class="audio-wrapper">
               <i class="fa-solid fa-volume-high audio-icon"></i>
-              <audio controls preload="none">
-                <source src="lagu3.mp3" type="audio/mpeg" />
+              <audio controls loop preload="none">
+                <source src="neck-deep-december.mp3" type="audio/mpeg" />
+                Browser kamu tidak mendukung pemutar audio.
+              </audio>
+            </div>
+          </div>
+
+          <!-- Slide 5: Bring Me The Horizon (Tambahan agar Loop Lancar) -->
+          <div class="swiper-slide music-card">
+            <div class="music-card-header">
+              <i class="fa-solid fa-compact-disc record-icon"></i>
+              <span class="genre-tag">POST-HARDCORE</span>
+            </div>
+            <div class="song-info">
+              <h3>Can You Feel My Heart</h3>
+              <p>Bring Me The Horizon</p>
+            </div>
+            <div class="audio-wrapper">
+              <i class="fa-solid fa-volume-high audio-icon"></i>
+              <audio controls loop preload="none">
+                <source src="bmth-cyfmh.mp3" type="audio/mpeg" />
+                Browser kamu tidak mendukung pemutar audio.
               </audio>
             </div>
           </div>
         </div>
 
-        <!-- Slider Navigation -->
+        <!-- Tombol Navigasi Slider -->
         <div class="slider-controls">
           <button class="btn-slide prev-btn">
             <i class="fa-solid fa-arrow-left"></i> Prev
@@ -316,7 +477,7 @@
         </div>
       </div>
     </section>
-
+    
     <!-- FOOTER / CONTACT -->
     <footer class="footer" id="contact">
       <div class="footer-content" data-aos="fade-up">
@@ -333,12 +494,6 @@
             class="social-btn"
           >
             <i class="fa-brands fa-instagram"></i> Instagram
-          </a>
-          <a href="https://linkedin.com" target="_blank" class="social-btn">
-            <i class="fa-brands fa-linkedin-in"></i> LinkedIn
-          </a>
-          <a href="mailto:habibi@example.com" class="social-btn">
-            <i class="fa-regular fa-envelope"></i> Email
           </a>
         </div>
       </div>
