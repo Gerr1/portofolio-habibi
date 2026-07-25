@@ -38,7 +38,7 @@
       <ul class="nav-links">
         <li><a href="#about">Profile</a></li>
         <li><a href="#experience">Experience</a></li>
-        <li><a href="#works">Works</a></li>
+        <li><a href="#gallery">Gigs</a></li>
         <li><a href="#music">Audio</a></li>
       </ul>
       <a href="#contact" class="btn-outline"
@@ -62,7 +62,7 @@
           komunikasi konvensional. Pendekatan radikal dengan hasil profesional.
         </p>
         <div class="hero-actions" data-aos="fade-up" data-aos-delay="400">
-          <a href="#works" class="btn-solid"
+          <a href="#gallery" class="btn-solid"
             ><i class="fa-solid fa-folder-open"></i> View Projects</a
           >
           <a href="#about" class="btn-text"
@@ -80,7 +80,7 @@
       </div>
       <div class="about-grid">
         <div class="profile-frame" data-aos="fade-up">
-          <!-- Ganti 'profile.jpg' dengan foto Habibi yang bergaya profesional/edgy -->
+          <!-- Ganti 'profile.jpg' dengan foto Habibi di folder proyek -->
           <img
             src="profile.jpg"
             alt="Muhammad Rizky Habibi"
@@ -165,6 +165,79 @@
       </div>
     </section>
 
+    <!-- GALLERY / GIGS SECTION (BAGIAN BARU DITAROH DI SINI) -->
+    <section class="gallery" id="gallery">
+      <div class="section-header" data-aos="fade-right">
+        <i class="fa-solid fa-camera section-icon"></i>
+        <h2>FIELD DOCUMENTATION & GIGS</h2>
+        <p class="section-subtitle">
+          Dokumentasi aksi lapangan, kepanitiaan acara musik, dan dokumentasi
+          visual.
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- Foto 1: Simpan foto gigs1.jpg di folder kamu -->
+        <div class="gallery-item" data-aos="fade-up">
+          <div class="gallery-img-wrapper">
+            <img
+              src="gigs1.jpg"
+              alt="Live Event / Gigs"
+              onerror="
+                this.src =
+                  'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=600&auto=format&fit=crop'
+              "
+            />
+            <div class="gallery-overlay">
+              <span class="gallery-tag">STAGE & EVENT</span>
+              <h3>Stage Management & Gigs</h3>
+              <p>Penanganan publisitas dan eksekusi acara musik independen.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Foto 2: Simpan foto gigs2.jpg di folder kamu -->
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="gallery-img-wrapper">
+            <img
+              src="gigs2.jpg"
+              alt="Street Journalism"
+              onerror="
+                this.src =
+                  'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=600&auto=format&fit=crop'
+              "
+            />
+            <div class="gallery-overlay">
+              <span class="gallery-tag">STREET MEDIA</span>
+              <h3>Street Journalism</h3>
+              <p>
+                Dokumentasi visual mengenai pergerakan sosial dan lanskap kota.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Foto 3: Simpan foto gigs3.jpg di folder kamu -->
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="gallery-img-wrapper">
+            <img
+              src="gigs3.jpg"
+              alt="Campaign / PR"
+              onerror="
+                this.src =
+                  'https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=600&auto=format&fit=crop'
+              "
+            />
+            <div class="gallery-overlay">
+              <span class="gallery-tag">COMMUNICATION</span>
+              <h3>Campus PR Campaign</h3>
+              <p>Eksekusi strategi komunikasi publik pada acara UIN Suska.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- MUSIC / AUDIO PLAYER SECTION -->
     <section class="music" id="music">
       <div class="section-header" data-aos="fade-right">
@@ -177,7 +250,7 @@
 
       <div class="swiper music-slider" data-aos="fade-up">
         <div class="swiper-wrapper">
-          <!-- Track 1 -->
+          <!-- Track 1: Ubah 'lagu1.mp3' sesuai nama file audio kamu -->
           <div class="swiper-slide music-card">
             <div class="music-card-header">
               <i class="fa-solid fa-compact-disc record-icon"></i>
@@ -190,15 +263,12 @@
             <div class="audio-wrapper">
               <i class="fa-solid fa-volume-high audio-icon"></i>
               <audio controls preload="none">
-                <source
-                  src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
-                  type="audio/mpeg"
-                />
+                <source src="lagu1.mp3" type="audio/mpeg" />
               </audio>
             </div>
           </div>
 
-          <!-- Track 2 -->
+          <!-- Track 2: Ubah 'lagu2.mp3' sesuai nama file audio kamu -->
           <div class="swiper-slide music-card">
             <div class="music-card-header">
               <i class="fa-solid fa-compact-disc record-icon"></i>
@@ -211,15 +281,12 @@
             <div class="audio-wrapper">
               <i class="fa-solid fa-volume-high audio-icon"></i>
               <audio controls preload="none">
-                <source
-                  src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
-                  type="audio/mpeg"
-                />
+                <source src="lagu2.mp3" type="audio/mpeg" />
               </audio>
             </div>
           </div>
 
-          <!-- Track 3 -->
+          <!-- Track 3: Ubah 'lagu3.mp3' sesuai nama file audio kamu -->
           <div class="swiper-slide music-card">
             <div class="music-card-header">
               <i class="fa-solid fa-compact-disc record-icon"></i>
@@ -232,10 +299,7 @@
             <div class="audio-wrapper">
               <i class="fa-solid fa-volume-high audio-icon"></i>
               <audio controls preload="none">
-                <source
-                  src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
-                  type="audio/mpeg"
-                />
+                <source src="lagu3.mp3" type="audio/mpeg" />
               </audio>
             </div>
           </div>
@@ -288,7 +352,6 @@
 
     <!-- Scripts -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
   </body>
